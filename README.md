@@ -1,5 +1,5 @@
 
-# Categorizing Banking Transaction Memos
+# Utilizing Cashflow Underwriting for Fairer Credit Assessment 
 **Contributors:** Jasmine Hong, Heidi Tam, David Tsukamoto, Ellie Wang <br>
 **Creation Date:** October 8, 2025 <br>
 **Last Updated:** November 1, 2025 <br>
