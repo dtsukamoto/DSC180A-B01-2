@@ -34,7 +34,7 @@ Currently, one of the most widely used metrics for evaluating an individual's li
 │   ├── q1_checkpoint.ipynb                 # Quarter 1 checkpoint code
 ├── .DS_Store                               # macOS system file
 │
-└── data/                                   # Input datasets (external or linked)
+└── data/                                   
     ├── q1-ucsd-inflows.pqt                 # Inflow data (transactions or activity inflows)
     └── q1-ucsd-outflows.pqt                # Outflow data (transactions or activity outflows)
 
