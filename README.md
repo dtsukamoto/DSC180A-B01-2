@@ -23,7 +23,21 @@ Currently, one of the most widely used metrics for evaluating an individual's li
 4) Run the entire pipeline with ```python run.py```
 
 ## File Structure
-[to be completed]
+```project-root/
+│
+├── README.md                               # Project overview and documentation
+│
+├── notebooks/                              # Weekly notebooks and progress checkpoints
+│   ├── EDA_w2.ipynb                        # EDA
+│   ├── Memo_Cleaning_w3.ipynb              # Text preprocessing and memo cleaning
+│   ├── Feature_Creation_w4.ipynb           # Feature engineering and baseline models
+│   ├── q1_checkpoint.ipynb                 # Quarter 1 checkpoint code
+├── .DS_Store                               # macOS system file
+│
+└── data/                                   # Input datasets (external or linked)
+    ├── q1-ucsd-inflows.pqt                 # Inflow data (transactions or activity inflows)
+    └── q1-ucsd-outflows.pqt                # Outflow data (transactions or activity outflows)
+
 
 ## Conclusion
 This project is currently in progress. Please check again towards mid-December for a clear and refined report on our conclusions of Part I of this project. 
