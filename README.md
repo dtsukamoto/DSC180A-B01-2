@@ -2,7 +2,7 @@
 # Utilizing Cashflow Underwriting for Fairer Credit Assessment 
 **Contributors:** Jasmine Hong, Heidi Tam, David Tsukamoto, Ellie Wang <br>
 **Creation Date:** October 8, 2025 <br>
-**Last Updated:** November 1, 2025 <br>
+**Last Updated:** November 9, 2025 <br>
 
 ## Overview
 Currently, one of the most widely used metrics for evaluating an individual's likelihood to pay back a loan is through the credit score, such as FICO or VantageScore. However, these metrics have their own limitations. Elderly people, for instance, may have not made purchases in the recent past, which can lower their credit score and make it more difficult for them to make large purchases, even if they previously maintained high credit scores and paid all their bills on time. On the other side of the spectrum, younger people may be reliable individuals but have a low credit score due to limited credit history. This project aims to use natural language processing to better understand the likelihood of people paying off their loans in two parts: <br> <br>
@@ -37,7 +37,7 @@ Currently, one of the most widely used metrics for evaluating an individual's li
 └── data/                                   
     ├── q1-ucsd-inflows.pqt                 # Inflow data (transactions or activity inflows)
     └── q1-ucsd-outflows.pqt                # Outflow data (transactions or activity outflows)
-
+```
 
 ## Conclusion
 This project is currently in progress. Please check again towards mid-December for a clear and refined report on our conclusions of Part I of this project. 
