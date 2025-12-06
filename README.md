@@ -13,14 +13,16 @@ Currently, one of the most widely used metrics for evaluating an individual's li
 
 ## Running the Project
 1) Navigate into the respective folder and run the following command in your command line or terminal: <br>
-```git clone https://github.com/elliekwang/DSC180A_B01_2.git```
+```git clone https://github.com/dtsukamoto/DSC180A-B01-2.git```
 
-2) Install the necessary dependencies by running this line:
-```pip install -r requirements.txt```
+2) Set up the environment and activate it:
+``` conda env create -f environment.yml```
+``` conda activate your-env-name```
 
-3) Place the ```ucsd-inflows.pqt``` and ```ucsd-outflows.pqt``` files in the ```data/``` directory. These represent the inflows (money that flows inward to one's bank account) and the outflows (people's spendings), respectively. 
+3) If you have access to our data, create a folder called ```data/``` directory and place the ```ucsd-inflows.pqt``` and ```ucsd-outflows.pqt``` files into it. These represent the inflows (money that flows inward to one's bank account) and the outflows (people's spendings), respectively. 
 
-4) Run the entire pipeline with ```python run.py```
+4) Run the entire pipeline with:
+```python3 run.py```
 
 ## File Structure
 ```project-root/
@@ -32,12 +34,16 @@ Currently, one of the most widely used metrics for evaluating an individual's li
 │   ├── Memo_Cleaning_w3.ipynb              # Text preprocessing and memo cleaning
 │   ├── Feature_Creation_w4.ipynb           # Feature engineering and baseline models
 │   ├── q1_checkpoint.ipynb                 # Quarter 1 checkpoint code
-├── .DS_Store                               # macOS system file
+│   ├── q1_report.ipynb                     # Quarter 1 report code
 │
-└── data/                                   
-    ├── q1-ucsd-inflows.pqt                 # Inflow data (transactions or activity inflows)
-    └── q1-ucsd-outflows.pqt                # Outflow data (transactions or activity outflows)
+├── environment.yml                         # Conda environment specification for reproducibility 
+│
+├── .gitignore                              # Git exclusion rules
+│
+└── run.py                                  # Main script for replicating all analysis and models                             
 ```
 
 ## Conclusion
-This project is currently in progress. Please check again towards mid-December for a clear and refined report on our conclusions of Part I of this project. 
+In summary, our goal was to improve transaction classification to enable more inclusive credit evaluation, especially for individuals with limited credit history who may be disadvantaged under traditional scoring frameworks. After applying Regex preprocessing and testing several models, DistilBERT delivered the strongest performance, showing that efficient transformer models can classify transactions accurately without heavy compute. Our findings support the potential of cash-flow underwriting to broaden credit access and offer more comprehensive insight of financial behavior. While our results are promising, future work could incorporate additional structured features, explore improved fine-tuning strategies, and evaluate model performance on larger real-world datasets. 
+
+Ultimately, this work demonstrates how modern NLP models can help financial institutions effectively evaluate consumers, improving access to financial products for underserved groups and providing a scalable path toward fairer, more inclusive credit decisioning.

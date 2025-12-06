@@ -1,0 +1,23 @@
+name: dsc180-q1
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.12
+  - numpy=2.2.6
+  - pandas=2.3.3
+  - scipy=1.14.1
+  - scikit-learn=1.7.2
+  - nbformat>=5.10.4
+  - matplotlib=3.10.0
+  - seaborn=0.13.2
+  - plotly=6.0.0
+  - pytorch=2.6.0       
+  - pip
+  - pip:
+      - xgboost==3.1.2
+      - sentence-transformers
+      - transformers
+      - datasets
+      - accelerate>=0.26.0
