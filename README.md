@@ -19,7 +19,7 @@ Currently, one of the most widely used metrics for evaluating an individual's li
 ``` conda env create -f environment.yml``` <br>
 ``` conda activate your-env-name```
 
-3) If you have access to our data, create a folder called ```data/``` directory and place the ```ucsd-inflows.pqt``` and ```ucsd-outflows.pqt``` files into it. These represent the inflows (money that flows inward to one's bank account) and the outflows (people's spendings), respectively. 
+3) If you have access to our data, create a folder called ```data``` in the root directory and place the ```ucsd-inflows.pqt``` and ```ucsd-outflows.pqt``` files into it. These represent the inflows (money that flows inward to one's bank account) and the outflows (people's spendings), respectively. 
 
 4) Run the entire pipeline with: <br>
 ```python3 run.py```
